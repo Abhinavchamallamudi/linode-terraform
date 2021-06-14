@@ -7,7 +7,7 @@ pipeline {
         sh 'unzip terraform_0.14.9_linux_amd64.zip'
         sh 'ls'
         sh 'su -'
-        sh 'mv terraform /usr/local/bin/'
+        sh 'sudo mv terraform /usr/local/bin/'
       }
     }
 
